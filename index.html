@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>GitLearn - Aprenda Git e GitHub</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100">
+    <div class="container mx-auto px-4 py-8">
+      <header class="text-center mb-12">
+        <h1 class="text-4xl font-bold text-blue-600 mb-4">GitLearn</h1>
+        <p class="text-xl text-gray-700">Guia Passo a Passo para Iniciantes</p>
+      </header>
+
+      <div class="bg-white shadow-md rounded-lg p-8">
+        <h2 class="text-3xl font-bold mb-6 text-center">
+          Guia Completo: Do Zero ao Primeiro Projeto
+        </h2>
+
+        <div class="space-y-8">
+          <section>
+            <h3 class="text-2xl font-semibold mb-4">
+              🔧 Passo 1: Preparação do Ambiente
+            </h3>
+            <div class="bg-gray-100 p-4 rounded">
+              <h4 class="font-bold mb-2">Instalações Necessárias:</h4>
+              <ol class="list-decimal pl-6">
+                <li>
+                  <strong>Git</strong>
+                  <p class="text-sm text-gray-600">
+                    - Acesse https://git-scm.com/downloads - Baixe a versão para
+                    seu sistema operacional - Durante instalação, mantenha as
+                    opções padrão
+                  </p>
+                </li>
+                <li>
+                  <strong>Visual Studio Code</strong>
+                  <p class="text-sm text-gray-600">
+                    - Baixe em https://code.visualstudio.com/ - Instale
+                    selecionando todas opções padrão
+                  </p>
+                </li>
+                <li>
+                  <strong>Criar Conta no GitHub</strong>
+                  <p class="text-sm text-gray-600">
+                    - Acesse github.com - Clique em "Sign up" - Preencha os
+                    dados com seu email de estudante
+                  </p>
+                </li>
+              </ol>
+            </div>
+          </section>
+
+          <section>
+            <h3 class="text-2xl font-semibold mb-4">
+              🖥️ Passo 2: Configuração Inicial
+            </h3>
+            <div class="bg-gray-100 p-4 rounded">
+              <h4 class="font-bold mb-2">Configurar Git</h4>
+              <div class="bg-gray-200 p-2 rounded">
+                <code>
+                  git config --global user.name "Seu Nome Completo"<br />
+                  git config --global user.email "seuemail@exemplo.com"
+                </code>
+              </div>
+              <p class="text-sm text-gray-600 mt-2">
+                ⚠️ Use o mesmo email da sua conta do GitHub
+              </p>
+            </div>
+          </section>
+
+          <section>
+            <h3 class="text-2xl font-semibold mb-4">
+              📂 Passo 3: Criar Primeiro Repositório
+            </h3>
+            <div class="bg-gray-100 p-4 rounded">
+              <h4 class="font-bold mb-2">No GitHub:</h4>
+              <ol class="list-decimal pl-6">
+                <li>Clique no botão "+" no canto superior direito</li>
+                <li>Escolha "New Repository"</li>
+                <li>Nome do repositório: "meu-primeiro-projeto"</li>
+                <li>Marque "Add README file"</li>
+                <li>Escolha repositório Público</li>
+                <li>Clique em "Create repository"</li>
+              </ol>
+            </div>
+          </section>
+
+          <section>
+            <h3 class="text-2xl font-semibold mb-4">
+              🔗 Passo 4: Clonar Repositório
+            </h3>
+            <div class="bg-gray-100 p-4 rounded">
+              <h4 class="font-bold mb-2">No VS Code:</h4>
+              <ol class="list-decimal pl-6">
+                <li>Abra VS Code</li>
+                <li>Ctrl+Shift+P (Abre Comandos)</li>
+                <li>Digite "Git: Clone"</li>
+                <li>Cole URL do repositório do GitHub</li>
+                <li>Escolha pasta para salvar localmente</li>
+              </ol>
+              <div class="bg-gray-200 p-2 rounded mt-2">
+                <strong>Dica:</strong> URL fica no botão verde "Code" no GitHub
+              </div>
+            </div>
+          </section>
+
+          <section>
+            <h3 class="text-2xl font-semibold mb-4">
+              ✍️ Passo 5: Primeiro Commit
+            </h3>
+            <div class="bg-gray-100 p-4 rounded">
+              <h4 class="font-bold mb-2">No VS Code:</h4>
+              <ol class="list-decimal pl-6">
+                <li>Crie um arquivo README.md</li>
+                <li>Escreva "Meu primeiro projeto"</li>
+                <li>Vá na aba Source Control (Ctrl+Shift+G)</li>
+                <li>Adicione mensagem de commit</li>
+                <li>Clique em "Commit"</li>
+                <li>Clique em "Sync Changes"</li>
+              </ol>
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <footer class="mt-8 text-center text-gray-600">
+        <p>© 2024 GitLearn - Guia Prático de Programação</p>
+      </footer>
+    </div>
+  </body>
+</html>
